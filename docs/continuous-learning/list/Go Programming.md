@@ -1,6 +1,7 @@
 # Go Programming
-Author:   | Not Started yet, likely FreeCodeCamp
+Author:   | John Doak
 ----------|----------
+Name      | Go for DevOps
 Score /5: | ⭐️⭐️⭐️
-Status:   | Ready to Start
-Type:     | YouTube
+Status:   | Read
+Type:     | Books

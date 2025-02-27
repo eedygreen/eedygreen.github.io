@@ -16,6 +16,7 @@ nav:
    - Certifications: 'certification/Certifications.md'
    - Continuous Learning: 
         - Stacks & Skills: 
+            - Systems Programming: 'continuous-learning/list/Hands-on Systems Programming.md'
             - Distributed Systems: 'continuous-learning/list/Distributed_Systems.md'
             - FastAPI: 'continuous-learning/list/FastAPI.md'
             - GitOps: 'continuous-learning/list/GitOps.md'
@@ -29,7 +30,9 @@ nav:
             - Nomad: 'continuous-learning/list/Nomad.md'
 
         - Books: 
-            - Reading: 'continuous-learning/list/Radical Candour.md'
+            - Reading: 'continuous-learning/list/Hands-on Systems Programming.md'
+            - Read: 'continuous-learning/list/Go Programming.md'
+            - Read: 'continuous-learning/list/Radical Candour.md'
             - Read: 'continuous-learning/list/The Path to GitOps.md'
 theme:
    name: material
