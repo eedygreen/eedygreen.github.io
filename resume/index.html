@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-	<title>IDRIS ISAH | DevOps Engineer, Snr</title>
+	<title>IDRIS ISAH | Infrastructure Engineer</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
@@ -37,7 +37,8 @@
 						</div>
 						<div class="yui-u">
 							<p class="pitch" align="justify">
-								Results-oriented DevOps Engineer specializing in distributed systems, with proven expertise in designing, implementing, and optimizing scalable, peer-to-peer infrastructure achieving 99.999% uptime across multiple regions. Pioneered an incident response framework, resolving 99% of incidents without business impact. Drove cost reductions while ensuring high availability and deployment efficiency, enhancing developer experience through Infrastructure as Code (IaC) automation. Demonstrates strong leadership and collaboration skills.
+								Results-oriented DevOps Engineer with extensive experience in distributed systems, designed, implemented, and optimized scalable distributed infrastructure achieving 99.999% uptime across multiple regions. Pioneered an incidence response framework, resolved 99% of incidents without business impact. Drove cost reductions while ensuring high availability and deployment efficiency. Enhanced developer experience through Infrastructure as Code (IaC) and automation. Demonstrated strong leadership and collaboration skills while leading and managing Distributed Infrastructure.
+							
 							</p>
 						</div>
 					</div>
@@ -62,18 +63,18 @@
 									<li>S3, EC2, EKS, ECS, ECR, IAM</li>
 									<li>SNS, Terraform, ELB, ALB, EFS</li>
 									<li>Cloudwatch, SQS, DynamoDB</li>
-									<li>IaC, Lambda, Route53, Boto3</li>								
+									<li>IaC, Lambda, Route53, AWS-SDK, Boto3</li>								
 									<li class="last">OIDC, SSM, KMS, Okta, Splunk</li>
 								</p>
 							</ul>
 							<ul class="talent">
-								<h2>Distributed Systems</h2>
+								<h2>ML Systems</h2>
 								<p class="bold">
-									<li>Blockchain, P2P, Relayers, IPFS, RPC</li>								
+									<li>Mlflow, W&B, Pydantic, Hydra, </li>								
 									<li>OpenTelemetry, Loki, Prometheus</li>
-									<li>Grafana, Datadog, Gateway API</li>
+									<li>Grafana, FastAPI, Gateway API</li>
 									<li>Microservices, Docker, kubernetes, Helm</li>
-									<li class="last">Go, EVM, ZK Provers</li>
+									<li class="last">PyTorch, scikit-learn, Ragas, Pandas</li>
 								</p>
 							</ul>					
 						</div>
@@ -106,40 +107,83 @@
 							</div>
 						</div>
 					</div>
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>Experience</h2>
+					<div class=""yui-gf>
+						<div class="yui-u-frist">
+							<h2>AI & ML Infrastructure Projects</h2>
 						</div>
-						<div class="yui-u">
+							<div class="job">
+								<h2>Masters of Science in AI</h2>
+								<h4>Nov 2025 - Apr 2027</h4>
+								<p class="bold" align="justify">
+									● <b>System Design & Architecting <a href="https://github.com/eedygreen/AI-Infrastructure/tree/main/Projects/Agentic_AI/Beavers_Paper_Company"> Multi-Agent Ordering System</a> </b><br>
+									Designed, arhcitected and built a <b>agentic</b> ordering system (smolagents, GPT-4o-mini, SQLite) - Customer facing agent, specialised agents (Parallel) and Orchestrator enforces the stock, deadline and cash rules so the model cannot bypass them. 
+									<b>Retry-safe and auditable transactions</b>. Database <b>writes</b> are <b>idempotent</b> with <b>crash recovery</b>, and <b>tools enforce</b> a cash floor, discount caps and a margin floor. With <b>StateMachine</b>, Test <b>runs</b> can be <b>resumed</b>. 
+									Code validation with <b>Automated tests</b>: a robust tests coverage with <b>end-to-end evaluation</b>.<br>
+
+									● <b>Developed & Implemented RAG Real-Time Evaluation</b><a href="https://github.com/eedygreen/AI-Infrastructure/tree/main/Projects/Generative_AI/RAG_Real-Time_Evaluation_Capabilitues"> RAG Real-Time Evalution</a><br>
+									Built an <b>automated</b> RAG evaluation <b>pipeline</b> using <b>Ragas</b> to quantify retrieval and generation quality across key metrics including <b>faithfulness</b>, answer <b>relevance</b>, context <b>precision</b>, and context <b>recall</b>, enabling <b>data-driven optimization</b> of LLM responses.<br>
+
+									Implemented <b>real-time monitoring</b> capabilities to assess <b>system performance</b> on live queries, <b>detecting hallucinations</b> and context <b>mismatches</b> immediately to ensure production-grade <b>reliability</b> and <b>reduce drift</b>. 
+
+									Established continuous evaluation workflows that benchmark RAG components against synthetic and golden datasets, facilitating rapid iteration on embedding models, chunking strategies, and prompt engineering to maximize end-to-end accuracy.<br>
+
+									● <b>Designed & Implemented Deep Neural Network Classification Infrastructure</b><a href="https://github.com/eedygreen/AI-Infrastructure/tree/c595b7161ddd483793525101de8a77c81199d332/Projects/image-classifier"> IMC: CLI APP for image-classifier</a><br>
+									<b>Architected</b> and implemented custom <b>neural network</b> models using <b>PyTorch</b>, a <b>flexible architecture</b> for <b>image classification</b> tasks with full <b>supports</b> for <b>training</b>, <b>retraining</b>, and <b>fine-tuning</b> workflows.<br>
+
+									● <b>Designed and Implemented ML Inference API</b><a href="https://github.com/eedygreen/income_based_prediction"> Production ML Inference API</a><br>
+									Deployed an end-to-end ML inference API with <b>FastAPI</b> framework. Implemented <b>preprocessing pipeline</b> (OneHotEncoder/LabelBinarizer) with <b>scikit-learn</b> for <b>feature</b> engineering. 
+
+									<b>Schema validation</b> with <b>Pydantic</b> ensuring type safety and <b>robust input</b> validation. 
+
+									<b>Automated CI/CD</b> pipeline using <b>GitHub Actions</b> for <b>testing with CI-gated auto-deployment</b> to Render, enabling <b>zero-downtime</b> releases. 
+
+									Conducted fairness audit through per-feature slice <b>performance analysis</b>, identifying a measurable sex-based recall disparity and documenting findings in a comprehensive model card to ensure responsible AI deployment.<br>
+									
+									● <b>Impemented an End-to-End Machine Learning Pipeline with Mlflow</b><a href="https://github.com/eedygreen/build-ml-pipeline-for-short-term-rental-prices"> End-to-End ML Pipeline</a><br> 
+
+									● <b>Generative AI Optimization with Transfer Learning</b><a href="https://github.com/eedygreen/AI-Infrastructure/tree/main/Projects/teach-llm-how-to-reason"> Teach LLM How To Reason</a><br>
+
+									● <b>Implemented Ethical Artifcial Engineering Practices</b><a href="https://github.com/eedygreen/AI-Infrastructure/tree/c595b7161ddd483793525101de8a77c81199d332/Projects/AI_Ethics_for_personalized_Budget_Prediction"> AI Ethics for Personalized Budget Prediction</a></b><br>
+									● <b>Impelemented Content Moderation System</b><a href="https://github.com/eedygreen/AI-Infrastructure/tree/c595b7161ddd483793525101de8a77c81199d332/Projects/content_moderation_system"> Content Moderation System</a><br>
+									<b>Tools</b>: Mlflow, Hydra, Wandb, PyTorch, vllm, GRPO, numpy, pandas, conda, PIL, FastAPI, scikit-learn, Claude, OpenAI, smolagents
+								</p>
+
+							</div>
+					</div>
+					<div class="yui-gf">
+						<div class="yui-u-frist">
+							<h2>Experience</h2>										
+						</div>		
 							<div class="job">
 								<h2>Senior DevOps Engineer</h2>
 								<h3>ChainSafe - Sygma: Interoperability Bridge Protocol & Chain Abstraction</h3>
 								<h4>Dec 2022 - Feb 2025</h4>
 								<p class="bold" align="justify">
-									● <b>Infrastructure Ownership</b>: Managed Sygma's P2P distributed infrastructure for over 2 years, converting manual processes to Infrastructure as Code (IaC) using Terraform and Terragrunt. Imported existing AWS resources into Terraform state, implemented Ansible for Configuration as Code, and adopted GitOps principles for seamless rollbacks and reconciliation.<br>
-									● <b>Infrastructure Optimization</b>: Developed reusable Terraform modules, slashing provisioning time by 99.41% (from 3.5 days to 30 mins), cutting operational costs by $1,265.03, and enhancing consistency via GitOps and automated releases.<br> 
-									● <b>Multi-Region Multi-Cloud Scalability</b>: Enhanced Sygma MPC nodes from single-point-of-failure to fault-tolerant, multi-region/multi-cloud architecture (Frankfurt, N. California, Singapore), boosting uptime to 99.999%. Collaborated with external partners (node operators) to establish a globally distributed network.<br>
-									● <b>Latency Optimization</b>: Reduced Sygma's costs by 23% on IPFS and 88% on compute by addressing latency and network failures in the MPC Bridge. Achieved this by replacing the config-server with S3 static file hosting for the topology map.<br>
-									● <b>CI/CD Optimization</b>: Improved deployment speed by 80% by consolidating five runners to a single runner using parallelism. Enhanced CI/CD pipeline flexibility by 86% with Jinja2 templating for dynamic JSON-based ECS configurations at runtime.<br>
-									● <b>Collaboration - External Partners</b>: Collaborated with node operators to run Sygma MPC Bridge nodes. Developed Terraform onboarding scripts, CI/CD pipelines, and documentation, enabling partners to join the Sygma Bridge network in under a day.<br>
-									● <b>Prover Zksync</b>: Collaborated with ChainSafe researchers to develop Spectre, a Rust-based Zksync implementation. Created Docker images and technical documentation for operating Spectre-Prover for external users.<br>
-									● <b>Blockchain RPCs</b>: Pioneered self-healing RPC gateways for public, private, and SaaS endpoints with continuous health checks, prioritizing public nodes to reduce SaaS RPC usage and costs by 53.3%, while improving reliability from 75.3% to 99.999%.<br>
-									● <b>Linux</b>: Improved deployments by 45% with Ansible playbooks and workspaces to automate and manage Ethereum nodes (Sepolia, Holesky, Goerli) on OVH bare-metal servers. Configured monitoring and observability using Promtail, Loki, Prometheus, and Grafana.<br>
-									● <b>Cross-Org Deployment</b>: Established GitHub as the source of truth for multiple repositories, enhancing security for public repos (source) and preventing sensitive data exposure in private repos (configurations). Implemented token-based access with need-to-access restrictions.<br>
-									● <b>Security</b>: Reduced CI/CD pipeline attack surface by 43% with OpenID Connect (OIDC) and AWS trust policies, enforced two-repo strategies to prevent data exposure, and set up least-privilege Security Groups and IAM roles.<br>
-									● <b>Cost Optimization</b>: Reduced annual AWS CloudWatch Logs costs by $9,840 (from $11,280 to $1,440) by optimizing log retention and redirecting ingestion to Loki, eliminating CloudWatch storage. Saved over $80,000 by migrating logs from Datadog to in-house Loki/Grafana.<br>
-									● <b>Observability</b>: Built an OpenTelemetry adapter for collecting metrics from distributed P2P nodes. Developed a serverless Functions-as-a-Service application (using Python, Boto3, and AWS Lambda) to stream logs from AWS SNS to Loki/Grafana, enabling real-time monitoring of SNS invocations with custom PromQL queries.<br>
-									● <b>Incident Management</b>: Spearheaded and contributed to the creation of the incident response framework, launching Sygma Incident Management. Introduced mock drills for incident handling, performed Root Cause Analysis (RCA), resolved 99% of incidents, and coordinated on-call duties and postmortems.<br>
 									<b>Key Achievements</b><br>
-									● Improved IaC efficiency by developing reusable Terraform modules, cutting provisioning time by 57.6%.<br>
-									● Scaled Sygma infrastructure to multi-availability zones and multi-regions, improving uptime from 95% to 99.999%.<br>
-									● Improved deployment times from 15 minutes to 2 minutes through pipeline optimizations, enhancing developer experience and productivity.<br>
-									● Pioneered RPC Gateway, improving reliability by 95% and saving RPC costs by 53.3%.<br>
-									● Reduced annual AWS ECR container storage and data transfer costs by 99% through GitHub Container Registry adoption.<br>
-									● Pioneered Sygma incident response, resolving 99% of incidents without business impact.<br>
-									● Improved observability with customer-facing metrics and search fields for quick monitoring of API interactions.<br>
-									● Reduced infrastructure costs by 33.3% by migrating compute-intensive workloads to bare-metal ZK coprocessors for verifying Beacon chain headers via Altair lightclient protocol.<br>
-									<b>Tools</b><br>AWS, Terraform, Go, GitOps, Git, GitHub Actions, MongoDB, Container Registry, Docker, Slack, Serverless, SSM, ASM, IAM, KMS, ECS, EC2, S3, SNS, Notion, Loki, Grafana, Datadog
+									● Improved <b>infrastructure</b> provisioning time by <b>168</b> times <b>faster</b>.<br>
+									● <b>Scaled infrastructure uptime</b> from 95% to 99.999% (multi-availability zones and multi-regions)<br>
+									● <b>Optimised</b> deployment times from <b>15</b> to <b>2</b> minutes - <b>enhanced</b> developer experience and <b>productivity</b>.<br>
+									● Improved <b>reliability by 95%</b> and <b>saved</b> RPC <b>costs</b> by 53.3%.<br>
+									● <b>Introduced Modck-Drill</b> for incident response, and <b>resolved 99% of incidents</b> without business impact.<br>
+									● Improved <b>observability</b> with customer-facing <b>metrics</b> and search fields for quick <b>monitoring of API interactions</b>.<br>
+									<br>
+
+									● <b>Infrastructure Ownership</b>: Managed Sygma's P2P <b>distributed infrastructure</b> for over 2 years, converted <b> manual</b> processes to <b>Infrastructure as Code</b> (IaC) using <b>Terraform</b> and <b>Terragrunt</b>. Imported <b>existing</b> AWS resources into <b>Terraform state</b>, implemented <b>Ansible</b> for <b>Configuration as Code</b>, and adopted <b>GitOps principles</b> for seamless <b>rollbacks</b> and <b>reconciliation</b>.<br>
+									● <b>Infrastructure Optimization</b>: Developed reusable <b>Terraform modules</b> that reduced <b>provisioning period</b> by 168 times shorter (from 3.5 days to 30 mins), reduced <b>operational costs</b> by $1,265.03, and <b>enhanced consistency</b> via GitOps and <b>automated releases</b>.<br> 
+									● <b>Multi-Region Multi-Cloud Scalability</b>: Enhanced Sygma MPC nodes from <b>single-point-of-failure</b> to <b>fault-tolerant</b> with multi-region/multi-cloud <b>architecture</b> (Frankfurt, N. California, Singapore...), boosting <b>uptime</b> to <b>99.999%</b>. Collaborated with <b>external partners</b> (node operators) to establish a <b>globally distributed</b> network.<br>
+									● <b>Latency Optimization</b>: Reduced <b>costs</b> by <b>23%</b> on IPFS, <b>88%</b> on <b>compute</b> by addressing <b>latency</b> and network <b>failures</b> in the MPC Bridge. Achieved this by replacing the config-server with <b>S3</b> static file hosting for the topology map.<br>
+									● <b>CI/CD Optimization</b>: Improved <b>deployment speed</b> by <b>80%</b> - reduced <b>5 GitHub Action runners</b> to <b>1 runner</b> using <b>jobs</b> parallelism. Enhanced <b>CI/CD pipeline</b> flexibility by <b>86%</b> with <b>Jinja2</b> templating for <b>dynamic</b> JSON-based ECS <b>configurations</b> at <b>runtime</b>.<br>
+									● <b>Collaboration - External Partners</b>: Collaborated, <b>coordinated</b> node operators to run MPC Bridge nodes. Developed <b>Terraform</b> onboarding <b>scripts</b>, GitHub Actions <b>CI/CD pipelines</b>, and documentation <b>guide</b>, enabling partners to join the <b>Bridge network</b> in a day.<br>
+									● <b>Zero-Knwoledge (ZK-Prover)</b>: <b>Collaborated with</b> ChainSafe <b>researchers</b> to develop Spectre, a Rust-based <b>ZK-Prover</b>. <b>Containerised</b> Spectre to enable <b>portable</b>, environmental <b>consistency</b>. Wrote technical <b>operational</b> guide for <b>external users</b>.<br>
+									● <b>Blockchain RPCs</b>: Pioneered <b>self-healing</b> RPC gateways for <b>public</b>, <b>private</b>, and <b>SaaS endpoints</b> with <b>continuous health checks</b>, prioritized public nodes to <b>reduce</b> SaaS RPC <b>usage</b> and <b>costs</b> by <b>53.3%</b>, while improved <b>reliability</b> from <b>75.3%</b> to <b>99.999%</b>.<br>
+									● <b>Linux</b>: Improved <b>deployments</b> by <b>45%</b> with <b>Ansible</b> playbooks and workspaces to <b>automate</b> and <b>manage Ethereum nodes</b> (Sepolia, Holesky, Goerli) on OVH <b>bare-metal</b> servers. Configured <b>monitoring & observability</b> using <b>Promtail</b>, <b>Loki</b>, <b>Prometheus</b>, and <b>Grafana</b>.<br>
+									● <b>Cross-Org Deployment</b>: Established GitHub as the <b>source of truth</b> across multiple repositories, <b>enhanced security</b> for public repos and <b>prevented sensitive data exposure</b> in <b>private</b> repositories using <b>token-based</b>, and <b>need-to-access</b> restrictions.<br>
+									● <b>Security</b>: Reduced CI/CD <b>pipeline attack surface</b> - implemented <b>OpenID Connect</b> (OIDC) and AWS <b>trust policies</b>, enforced two-repo (Public and private) strategies to <b>prevent data exposure</b>, and set up <b>least-privilege</b> with <b>Security Groups</b> and <b>IAM roles</b>.<br>
+									● <b>Cost Optimization</b>: Saved $9,840 annually on <b>CloudWatch</b> - <b>migrated</b> log retention to <b>Loki</b>. Saved over $80,000 annually on <b>Datadog</b> - migrated from to in-house <b>Loki/Grafana</b>. Cut AWS container storage costs by 99% via <b>GitHub Container Registry</b> adoption..<br>
+									● <b>Observability</b>: Built an <b>OpenTelemetry adapter</b> that collects <b>metrics</b> from distributed <b>nodes</b>. Developed a AWS Lambda <b>application</b> that <b>stream logs</b> from AWS SNS to Loki/Grafana, enabled <b>real-time monitoring</b> of SNS <b>invocations</b> with custom PromQL queries.<br>
+									● <b>Incident Management</b>: Spearheaded and contributed to the creation of the incident response framework, launched Sygma Incident Management. Introduced mock drills for incident handling, performed Root Cause Analysis (RCA), resolved 99% of incidents, and coordinated on-call duties and postmortems.<br>
+									● Saved costs by 33.3% by migrating compute-intensive workloads to bare-metal ZK coprocessors for verifying Beacon chain headers via Altair lightclient protocol.<br>
+									<b>Tools</b><br>AWS, Terraform, Terragrunt, Go, GitOps, Git, GitHub Actions, Serverless, SSM, ASM, IAM, KMS, ECS, EC2, S3, SNS, MongoDB, Container Registry, Docker, Notion, Loki, Grafana, Datadog
 								</p>
 							</div>
 							<div class="job">
@@ -153,18 +197,18 @@
 									● Created reliable end-to-end CI/CD pipelines (build, test, deploy, monitor), improving developer experience, automating deployments across Kubernetes environments, and reducing manual processes.<br>
 									● Introduced Java library publishing on GitHub with CI/CD release pipelines using GitHub Actions, reducing deployment time by 80%.<br>
 									● Designed and implemented microservices environments for listing crypto-tokens, developing templates to automate CI/CD tooling, and maintained fault-tolerant pipelines for production serving 5M+ users.<br>
-									● Developed pipelines for Java libraries (Spring, Micronaut) with GitOps and Cookiecutter, integrating continuous testing on CircleCI with test containers.<br>
+									● Developed pipelines for Java libraries (Spring, Micronaut) with GitOps integrating continuous testing on CircleCI with test containers.<br>
 									● Automated Java build processes with Gradle, GitOps, GitHub Actions, Python, and Bash.<br>
 									● Created decentralized GitHub packages as internal libraries with GitHub Gateway.<br>
-									● Introduced engineering onboarding programs, documented processes for users and engineers, and collaborated to identify and resolve tech debt.<br>
+									● Introduced engineering onboarding programs for engineers, collaborate to identify and resolve tech debt.<br>
 									● Created a roadmap to improve engineering communication and organizational strategy.<br>
 									<b>Tools</b><br>CircleCI, Spinnaker, Bash, GitOps, Git, GitHub, Gradle, Slack, Groovy, DSL, Asdf, EKS, ECR, Helm, Docker, Python, Terraform, Atlantis, GitHub API, API Gateway, KMS, EC2, S3, Jira, DynamoDB, Splunk, Komodor, Okta
 								</p>
 							</div>
 							<div class="job last">
-								<h2>Independent Consultant - DevOps</h2>
-								<h3>Udacity</h3>
-								<h4>Oct 2020 - Sept 2021</h4>
+								<h2>DevOps Engineer</h2>
+								<h3>Real-Time Integrated Technologies </h3>
+								<h4>Oct 2018 - Sept 2021</h4>
 								<p class="bold" align="justify">
 									● Delivered continuous integration and delivery for a Machine-Learning Flask application using CircleCI, Git, and GitHub.<br>
 									● Built, deployed, tested, monitored, and maintained Blue-Green CI/CD pipelines for containerized workloads on AWS.<br>
@@ -176,7 +220,7 @@
 									● Designed serverless architecture for remote developers with proof-of-concept.<br>
 									● Integrated and deployed end-to-end distributed tracing with Jaeger Operator on EKS for monitoring and observability.<br>
 									● Deployed Kube-Prometheus and metrics-aggregator on Kubernetes using Helm.<br>
-									● Monitored and observed Kubernetes workloads with Grafana custom metrics (CPU, Memory) and troubleshooted with distributed tracing.<br>
+									● Troubleshoot, monitored, observed Kubernetes workloads with Grafana custom metrics (CPU, Memory) with distributed tracing.<br>
 									● Secured web applications with IAM policies, AWS Inspector, GuardDuty, AWS Config, and S3 encryption.<br>
 									● Recovered failed web applications using S3 versioning.<br>
 									● Mitigated malware on Ubuntu 18.04 via vulnerability testing with OpenVAS, YARA, and CVE.<br>
@@ -187,9 +231,18 @@
 						</div><!--// .yui-u-->
 					</div><!-- .yui-gf-->
 					
+
+					
 							<div class="yui-gf">
 								<div class="yui-u first">
 									<h2>Education</h2>
+								</div>
+								<div class="yui-u">
+									<p class="bold">
+										<b>Master of Science in Artificial Intelligence </b><br>
+										Woolf University, 2025 - 2027
+									</p>
+									<br>
 								</div>
 								<div class="yui-u">
 									<p class="bold">
@@ -209,8 +262,8 @@
 							<h4>● AWS Certified Cloud Practitioner</h4>
 							<h4>● GitLab Certified Associate</h4>
 							<h4>● Certified Apache Cassandra in Kubernetes</h4>
-							<h4>● SkillFront Enterprise Design Thinking Practitioner</h4>
-							<h4>● IBM Lean Foundations Professional</h4>
+							<h4>● SkillFront Lean Foundations Professional</h4>
+							<h4>● IBM Enterprise Design Thinking Practitioner</h4>
 							<h4><a href="https://v2.credential.net/profile/isahidris594532/wallet">For more Credentials</a></h4>
 						</div>
 					</div>
